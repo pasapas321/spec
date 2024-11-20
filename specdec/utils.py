@@ -113,7 +113,7 @@ def canary(immune=True):
             raise e
 
 
-def get_dataset(dataset_name, path_to_data="./data"):
+def get_dataset(dataset_name, path_to_data="kaggle/working/spec/data"):
     """
     loads prompts dataset from json file in standard location({repo_root}/data), as list of tuples (id, string)
     returns list of strings
